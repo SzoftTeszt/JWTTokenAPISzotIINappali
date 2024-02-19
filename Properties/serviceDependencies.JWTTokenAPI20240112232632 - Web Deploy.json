@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/JWTTokenAPIapi/apis/JWTTokenAPI",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "secretStore": null,
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/sqlproba/databases/Adatbazid",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:JWTTokenAPIContext"
+    }
+  }
+}
